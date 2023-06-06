@@ -1,0 +1,23 @@
+.lettucemeet_container {
+    height: 70vh;
+    width: 100vw;
+    background-image: url('../assets/vegetable-background.jpg');
+    background-color: #1F2B21;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    }
+    
+    .lettucemeet-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    background: rgba (0, 0, 0, 0.65);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    }
