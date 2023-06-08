@@ -1,6 +1,6 @@
 .hero_container {
 height: 70vh;
-width: 100vw;
+width: 100%;
 background-image: url('../assets/landing_nourish:flourish.jpg');
 background-color: #1F2B21;
 position: relative;
@@ -24,8 +24,10 @@ flex-direction: row;
 
 h1 {
 padding: 10px;
-color: whitesmoke;
+color: #FFBBDC;
 font-size: 80px;
+padding-left: 10vw;
+padding-bottom: 2vh;
 }
 
 

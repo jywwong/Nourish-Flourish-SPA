@@ -7,16 +7,16 @@ import Cookies from './assets/cookies.jpg';
 function Highlights(){
 return(
 <div className="main-container">
-<div className="Juice_container">
-    <img src={Juice} alt="Green Goddess Juice" />
+<div className="juice_container">
+    <img className="greengoddessimg" src={Juice} alt="Green Goddess Juice" />
     <button className="btn"><IoIosArrowDown /></button>
 </div>
-<div className="Bowl_container">
-<img src={Bowl} alt="Green Goddess Juice" />
+<div className="bowl_container">
+<img className="bowlimg" src={Bowl} alt="Bowl" />
 <button className="btn"><IoIosArrowDown /></button>
 </div>
-<div className="Cookies_container">
-<img src={Cookies} alt="Vegan Cookies" />
+<div className="cookies_container">
+<img className="vegancookies" src={Cookies} alt="Vegan Cookies" />
 <button className="btn"><IoIosArrowDown /></button>
 </div></div>
 );

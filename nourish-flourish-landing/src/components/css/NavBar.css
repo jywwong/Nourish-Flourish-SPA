@@ -1,34 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barlow:wght@400;500&family=Righteous&display=swap');
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw;
   }
 
-h2 {
-  font-family: 'Abril Fatface', cursive;
-  padding: 15px;
+.container-logo {
+  width: 40%
 }
+
+  .container-nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    width: 60%;
+    padding-right: 10px;
+  }
+
+
+.logo {
+  font-family: 'Barlow', sans-serif;
+  font-size: 3vw;
+  padding-left: 1vw;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 2vw;
+  }
 
 ul li a {
     text-decoration: none;
     font-family: 'Barlow', sans-serif;
     color: whitesmoke;
-  }
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-.container-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-  }
-
-  li {
-    padding: 30px;
   }

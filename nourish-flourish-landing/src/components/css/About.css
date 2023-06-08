@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barlow:wght@400;500&family=Righteous&display=swap');
 
-.about-container {
+.aboutcontainer {
 display: flex;
 }
 
-img {
-    padding: 30px;
+.aboutcontainer img {
+    padding: 20px;
     margin: 15px;
     width: 30vw;
 }
 
-p {
+.abouttextcontainer h2 {
+    color: #FFBBDC;
+}
+
+.abouttext{
     font-family: 'Barlow', sans-serif;
 }
