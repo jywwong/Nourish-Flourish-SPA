@@ -1,17 +1,25 @@
+import React, {useRef} from 'react';
 import './css/NavBar.css'
 import AppRouter from '../AppRouter';
-import {Link, animateScroll as scroll} from "react-scroll";
 
-function NavBar() {
+const NavBar = () => {
+  const scrollRef = useRef(null);
+
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({behavior:'smooth'});
+    }
+  };
 return (
 <nav className='navbar'>
 <div className='container-logo'>
 <h2 className='logo'>NOURISH/FLOURISH</h2>
 </div>
 <ul className='container-nav'>
-  <li><a href="/about">About</a></li>
-  <li><a href="/menu">Menu</a></li>
-  <li><a href="/contact">Contact</a></li>
+  <li onClick={() => scrollToSection('about')}>About</li>
+  <li onClick={() => scrollToSection('menu')}>Menu</li>
+  <li onClick={() => scrollToSection('contact')}>Contact</li>
 </ul>
 <AppRouter/>
 </nav>

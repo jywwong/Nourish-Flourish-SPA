@@ -7,17 +7,23 @@ import Menu from './components/Menu';
 import Lettucemeet from './components/Lettucemeet';
 import Contact from './components/Contact';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
         <NavBar/>
         <HeroContainer/>
+        <section id="about">
         <About/>
+        </section>
         <Highlights/>
+        <section id="menu">
         <Menu/>
+        </section>
         <Lettucemeet/>
+        <section id="contact">
         <Contact/>
+        </section>
       </header>
     </div>
   );
