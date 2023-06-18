@@ -5,15 +5,25 @@ display: flex;
 }
 
 .aboutcontainer img {
-    padding: 20px;
-    margin: 15px;
+    padding: 1em;
+    margin: 0.5em;
     width: 30vw;
 }
 
-.abouttextcontainer h2 {
+.abouttextcontainer {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+h2.abouttitle  {
     color: #FFBBDC;
+    font-size: 1.3em;
 }
 
 .abouttext{
     font-family: 'Barlow', sans-serif;
+    font-size: 0.8em;
 }

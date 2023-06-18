@@ -3,8 +3,17 @@
 .main-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap: 5px;
-    font-family: 'Barlow', sans-serif;
+    align-items: flex-start;
+    gap: 1em;
+    margin: 1.5em;
 }
 
+h2.category {
+    font-family: 'Abril Fatface', sans-serif;
+    color: #FFBBDC;
+    font-size: 1.5em;
+}
+
+section > p {
+    font-family: 'Barlow', sans-serif;
+}

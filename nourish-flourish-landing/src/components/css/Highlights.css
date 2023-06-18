@@ -16,21 +16,21 @@ width: 50%
     height: auto;
   }
 
-.juice_container .btn {
-        position: absolute;
-        top: 75%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        background-color: transparent;
-        color: #1F2B21;
-        font-size: 45px;
-        font-weight: bold;
-        padding: 12px 24px;
-        border: none;
-        cursor: pointer;
-        border-radius: 5px;
-      }
+  .juice_container .btn {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: #1F2B21;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    }
 
 .bowl_container {
 position: relative;

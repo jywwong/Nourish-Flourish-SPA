@@ -2,38 +2,34 @@ import './css/contact.css'
 
 function Contact(){
 return (
-    <><h1>Can I talk to someone real please?</h1>
-    <div className="contacts-container">
+    <section className="contact">
+    <section className="contactblurb">
+    <h1>Can I talk to someone real please?</h1>
+    </section>
 
-<div className="socials">
-<ul>
-  <li>Socials</li>
-  <li>Instagram</li>
-</ul>
-</div>
+<section className="contacts-container">
+<section className="socials">
+  <p>Socials</p>
+  <p>@nourishflourish</p>
+</section>
 
-<div className="email">
-<ul>
-  <li>Email</li>
-  <li>heythere@nourishflourish.com</li>
-</ul>
-</div>
+<section className="email">
+  <p>Email</p>
+  <a className="emaillink" href= "mailto:heythere@nourishflourish.com">heythere@nourishflourish.com</a>
+</section>
 
-<div className="location">
-<ul>
-  <li>Location</li>
-  <li>18th Wolsey Street<br/>Hackney, London</li>
-</ul>
-</div>
+<section className="location">
+  <p>Location</p>
+  <p>18th Wolsey Street<br/>Hackney, London</p>
+</section>
 
-<div className="phone">
-<ul>
-  <li>Phone</li>
-  <li>02-1234-5678</li>
-</ul>
-</div>
-</div>
-    </>
+<section className="phone">
+  <p>Phone</p>
+  <p>02-1234-5678</p>
+</section>
+
+</section>
+    </section>
 
 );
 }

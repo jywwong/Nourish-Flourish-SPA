@@ -1,4 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barlow:wght@400;500&family=Righteous&display=swap');
+
+.contactblurb {
+height: 30vh;
+}
+
+section.contactblurb {
+    padding: 1em;
+    color: #FFBBDC;
+    font-size: 2em;
+    }
+
 .contacts-container {
-list-style: none;
-display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1em;
+    margin: 1.5em;
+}
+
+.emaillink {
+    text-decoration: underline;
+    color:whitesmoke;
+    font-family: 'Barlow', sans-serif;
 }

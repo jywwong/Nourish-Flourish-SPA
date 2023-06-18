@@ -21,3 +21,11 @@
     justify-content: flex-start;
     flex-direction: row;
     }
+
+    .lettucemeet-overlay p {
+        padding: 1em;
+        color: whitesmoke;
+        font-size: 2.5em;
+        padding-left: 10vw;
+        padding-bottom: 2vh;
+        }

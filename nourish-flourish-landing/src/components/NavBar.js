@@ -14,12 +14,12 @@ const NavBar = () => {
 return (
 <nav className='navbar'>
 <div className='container-logo'>
-<h2 className='logo'>NOURISH/FLOURISH</h2>
+<p className='logo'>NOURISH/FLOURISH</p>
 </div>
 <ul className='container-nav'>
-  <li onClick={() => scrollToSection('about')}>About</li>
-  <li onClick={() => scrollToSection('menu')}>Menu</li>
-  <li onClick={() => scrollToSection('contact')}>Contact</li>
+  <li onClick={() => scrollToSection('about')}>ABOUT</li>
+  <li onClick={() => scrollToSection('menu')}>MENU</li>
+  <li onClick={() => scrollToSection('contact')}>CONTACT</li>
 </ul>
 <AppRouter/>
 </nav>

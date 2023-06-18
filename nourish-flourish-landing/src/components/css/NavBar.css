@@ -26,13 +26,18 @@
   padding-left: 1vw;
 }
 
-ul {
+ul.container-nav {
     list-style-type: none;
     font-size: 2vw;
   }
 
-ul li a {
+ul.container-nav li {
     text-decoration: none;
     font-family: 'Barlow', sans-serif;
     color: whitesmoke;
+    cursor: pointer;
   }
+
+ul.container-nav li:hover {
+color: #FFBBDC;
+}
