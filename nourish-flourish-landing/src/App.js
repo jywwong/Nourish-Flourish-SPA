@@ -11,18 +11,18 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <NavBar/>
-        <HeroContainer/>
+        <NavBar />
+        <HeroContainer />
         <section id="about">
-        <About/>
+          <About />
         </section>
-        <Highlights/>
+        <Highlights />
         <section id="menu">
-        <Menu/>
+          <Menu />
         </section>
-        <Lettucemeet/>
+        <Lettucemeet />
         <section id="contact">
-        <Contact/>
+          <Contact />
         </section>
       </header>
     </div>
